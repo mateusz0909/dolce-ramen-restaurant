@@ -3,6 +3,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
+.footer {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  background-color: #1e1d1d;
+}
+footer p {
+  font-weight: 100;
+  font-size: 0.9em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#content {
+  position: relative;
+  min-height: 100vh;
+}
+
+.text-content {
+  padding-bottom: 2.5rem;
+}
+
+.gh-logo {
+  width: 1.5em;
+  height: auto;
+}
+
 @media (max-width: 600px) {
   body {
     margin: 0px;
@@ -138,13 +171,13 @@
   body {
     margin: 0px;
     font-family: "Poppins", sans-serif;
-  }
-  #content {
     background-image: url("./assets/ramen.jpeg");
     background-repeat: no-repeat;
-    height: 100vh;
-    width: auto;
     background-size: cover;
+    background-attachment: fixed;
+  }
+  #content {
+    width: auto;
     margin: 0px;
     display: flex;
     flex-direction: column;
@@ -201,6 +234,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .icon {
+    display: none;
   }
   h1 {
     font-size: 75px;

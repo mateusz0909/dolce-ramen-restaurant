@@ -7,6 +7,7 @@ import menu from "./components/menu";
 import about from "./components/about";
 import locations from "./components/locations";
 import navbar from "./components/navbar";
+import footer from "./components/footer";
 
 const app = document.getElementById("content");
 const textContent = document.createElement("div");
@@ -16,6 +17,7 @@ app.appendChild(navBar);
 app.appendChild(hamburger);
 app.appendChild(textContent);
 textContent.appendChild(header);
+app.appendChild(footer);
 
 const handleMenuClick = (e) => {
   textContent.innerHTML = "";
