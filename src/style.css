@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+@media (max-width: 600px) {
+  body {
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+  }
+  #content {
+    background-image: url("./assets/ramen-mobile.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+  }
+
+  .hamburger-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  .navbar.is-active {
+    display: flex;
+  }
+  .navbar {
+    display: none;
+    position: fixed;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    top: 0;
+    right: 0;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: rgba(26, 26, 26, 0.903);
+  }
+  .navbar button {
+    margin: 2px;
+    padding: 0px 10px 0px 10px;
+    font-size: 22px;
+    font-weight: 100;
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+  }
+  .navbar button:hover {
+    background-color: rgba(0, 0, 0, 0.332);
+    opacity: 80%;
+  }
+
+  button.order-btn {
+    background-color: #e35801;
+    padding: 0px 10px 0px 10px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: 300;
+  }
+  button.order-btn:hover {
+    background-color: #fd8104;
+    color: rgb(61, 61, 61);
+  }
+
+  .navbar span {
+    margin: 5px;
+    font-size: 35px;
+    margin-right: 0px;
+    display: none;
+  }
+
+  .heading {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    font-size: 55px;
+    padding: 0px;
+    margin: 0px;
+  }
+  h4 {
+    font-size: 20px;
+    padding: 0px;
+    margin: -10px;
+  }
+
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ffffff47;
+  }
+  .item-name {
+    margin-right: 50px;
+  }
+
+  .menu-item h3,
+  p {
+    margin: 0px;
+    padding: 0px;
+  }
+  .menu-item p {
+    margin-bottom: 35px;
+    margin-right: 5px;
+    padding: 0px;
+    font-weight: 200;
+  }
+  h3 {
+    font-weight: 500;
+  }
+
+  .about {
+    font-weight: 200;
+    max-width: 100%;
+  }
+
+  .text-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1em;
+    margin: 3em;
+  }
+}
+
+@media (min-width: 601px) {
+  body {
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+  }
+  #content {
+    background-image: url("./assets/ramen.jpeg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+  }
+  .hamburger-container {
+    display: none;
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+  }
+  .navbar button {
+    margin: 25px;
+    padding: 0px 10px 0px 10px;
+    font-size: 22px;
+    font-weight: 100;
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+  }
+  .navbar button:hover {
+    background-color: rgba(0, 0, 0, 0.332);
+    opacity: 80%;
+  }
+
+  button.order-btn {
+    background-color: #e35801;
+    padding: 0px 10px 0px 10px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: 300;
+  }
+  button.order-btn:hover {
+    background-color: #fd8104;
+    color: rgb(61, 61, 61);
+  }
+
+  .navbar span {
+    margin: 25px;
+    font-size: 55px;
+    margin-right: 100px;
+  }
+
+  .heading {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    font-size: 75px;
+    padding: 0px;
+    margin: 0px;
+  }
+  h4 {
+    font-size: 20px;
+    padding: 0px;
+    margin: -10px;
+  }
+
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ffffff47;
+  }
+  .item-name {
+    margin-right: 50px;
+  }
+
+  .menu-item h3,
+  p {
+    margin: 0px;
+    padding: 0px;
+  }
+  .menu-item p {
+    margin-bottom: 35px;
+    margin-right: 5px;
+    padding: 0px;
+    font-weight: 200;
+  }
+  h3 {
+    font-weight: 500;
+  }
+
+  .about {
+    font-weight: 200;
+    max-width: 50%;
+  }
+
+  .text-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
