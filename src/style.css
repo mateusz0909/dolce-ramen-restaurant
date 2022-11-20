@@ -7,13 +7,13 @@
   body {
     margin: 0px;
     font-family: "Poppins", sans-serif;
-  }
-  #content {
     background-image: url("./assets/ramen-mobile.jpg");
     background-repeat: no-repeat;
-    height: 100vh;
-    width: auto;
     background-size: cover;
+    background-attachment: fixed;
+  }
+  #content {
+    width: auto;
     margin: 0px;
     display: flex;
     flex-direction: column;
@@ -25,6 +25,7 @@
     position: fixed;
     top: 0;
     right: 0;
+    background-color: #e3e3e3;
   }
   .navbar.is-active {
     display: flex;
