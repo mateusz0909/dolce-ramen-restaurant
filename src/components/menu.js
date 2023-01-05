@@ -28,7 +28,7 @@ const sweetRamen2 = item(
 const sweetRamen3 = item(
   "Kinoko Vegan Shoyu (chintan) 🥦",
   "Broth based on dashi, won ton mushroom dumplings, oyster mushroom chips, grilled leek, chives, nori",
-  "72 PLN"
+  "720 PLN"
 );
 
 const menu = () => {
